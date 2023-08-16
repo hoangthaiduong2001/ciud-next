@@ -7,7 +7,7 @@ const AppFooter = () => {
         padding: "5px 0px",
       }}
     >
-      CIUD-NEXT
+      CRUD-NEXT
     </div>
   );
 };

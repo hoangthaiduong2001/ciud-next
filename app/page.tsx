@@ -1,21 +1,14 @@
-'use client'
-import AppTable from "@/components/app.tabel"
-import Link from "next/link"
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: 'CRUD',
+  description: 'Create read update delete',
+}
+
 export default function Home() {
   return (
-   <div>
-   {/* <ul>
-    <li>
-      <Link href={'/facebook'}>Facebook</Link>
-    </li>
-    <li>
-      <Link href={'/youtube'}>Youtube</Link>
-    </li>
-    <li>
-      <Link href={'/tiktok'}>Tiktok</Link>
-    </li>
-   </ul> */}
-   <AppTable />
-   </div>
-  )
+    <div>
+      Home
+    </div>
+  );
 }
