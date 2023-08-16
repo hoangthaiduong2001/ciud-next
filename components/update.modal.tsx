@@ -47,7 +47,7 @@ function UpdateModal(props: IProps) {
       toast.warning("Please check content");
       return
     }
-    fetch(`http://localhost:8000/blogs/${value?.id}`, {
+    fetch(`http://localhost:8000/blogs/${id}`, {
       method: "PUT",
       headers: {
         Accept: "application/json, text/plain, */*",
